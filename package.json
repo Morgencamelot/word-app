@@ -1,0 +1,30 @@
+{
+  "name": "word-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node backend/index.js",
+    "start:dev": "nodemon backend/index.js"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^3.1.0",
+    "pinia": "^3.0.2",
+    "sqlite3": "^5.1.6",
+    "vue": "^3.3.0",
+    "vue-router": "^4.5.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "nodemon": "^3.0.2",
+    "vite": "^5.0.0"
+  }
+}
