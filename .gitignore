@@ -1,24 +1,55 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+# 编辑器和IDE
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# 构建输出
+dist/
+dist-ssr/
+
+# 日志文件
+logs/
+*.log
+
+# 数据库和备份
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.backup.db
+*_backup_*.db
+*_export_*.sql
+
+# 本地环境变量
+.env
+.env.local
+.env.*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 测试覆盖率报告
+coverage/
+
+# 临时文件
+*.tmp
+*.temp
+.temp/
+.cache/
+
+# Vite
+.vite/
